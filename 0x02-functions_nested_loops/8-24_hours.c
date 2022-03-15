@@ -18,7 +18,7 @@ if (hours_tens == '2')
 hours_max = '4';
 }
 hours_ones = '0';
-while (hours_ones < hours_max
+while (hours_ones < hours_max)
 {
 minutes_tens = '0';
 while (minutes_tens < '6')
@@ -44,3 +44,4 @@ hours_ones = '0';
 hours_tens++;
 }
 }
+
