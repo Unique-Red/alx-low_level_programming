@@ -5,7 +5,7 @@
  * @head: pointer to head of list
  * Return: number of nodes printed
  */
-size_t print_listint(const listint_t *head)
+size_t print_listint_safe(const listint_t *head)
 {
 	int diff;
 
